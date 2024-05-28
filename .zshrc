@@ -7,7 +7,8 @@ export DEFAULT_USER="$usern"
 ZSH_THEME="blinks"
 plugins=(git macos)
 
-DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="TRUE"
+HOMEBREW_NO_INSTALL_CLEANUP="TRUE"
 
 source $ZSH/oh-my-zsh.sh
 
